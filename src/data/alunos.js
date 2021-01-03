@@ -1,0 +1,15 @@
+export default [
+  {id: 1, nome: 'Ana', nota: 9.2 },
+  {id: 1, nome: 'Luiz', nota: 6.0 },
+  {id: 1, nome: 'Julia', nota: 5.5 },
+  {id: 1, nome: 'Guilherme', nota: 7.2 },
+  {id: 1, nome: 'Pedro Marques', nota: 9.2 },
+  {id: 1, nome: 'Andriei', nota: 9.2 },
+  {id: 1, nome: 'Camila', nota: 9.2 },
+  {id: 1, nome: 'Patrick', nota: 9.2 },
+  {id: 1, nome: 'Chey', nota: 9.2 },
+  {id: 1, nome: 'Nina', nota: 9.2 },
+  {id: 1, nome: 'Maria', nota: 9.2 },
+  {id: 1, nome: 'Rafaela', nota: 9.2 },
+  {id: 1, nome: 'Boleta', nota: 9.2 }, 
+]
