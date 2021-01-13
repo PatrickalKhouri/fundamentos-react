@@ -12,7 +12,8 @@ import Produtos from './components/repeticao/Produtos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
-
+import IndiretaPai from './components/comunicacao/IndiretaPai'
+import Input from './components/fornulario/Input'
 import './App.css'
 
 export default _ =>
@@ -20,6 +21,12 @@ export default _ =>
 
       <h1> Fundamentos React</h1>
       <div className="Cards">
+      <Card  titulo="Exercicio 11 - Corrente Controlado">
+        <Input />
+      </Card>
+      <Card  titulo="Exercicio 10 - Comunicação Indireta">
+        <IndiretaPai />
+      </Card>
       <Card  titulo="Exercicio 9 - Comunicação Direta">
         <DiretaPai />
       </Card>
