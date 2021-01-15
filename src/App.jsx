@@ -14,6 +14,7 @@ import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/fornulario/Input'
+import Contador from './components/contador/Contador.jsx'
 import './App.css'
 
 export default _ =>
@@ -21,7 +22,10 @@ export default _ =>
 
       <h1> Fundamentos React</h1>
       <div className="Cards">
-      <Card  titulo="Exercicio 11 - Corrente Controlado">
+      <Card  titulo="Exercicio 12 - Contador">
+        <Contador numeroInicial={10}></Contador>
+      </Card>  
+      <Card  titulo="Exercicio 11 - Componente Controlado">
         <Input />
       </Card>
       <Card  titulo="Exercicio 10 - Comunicação Indireta">
