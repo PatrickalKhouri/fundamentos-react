@@ -1,5 +1,6 @@
 import './Contador.css';
-import React, { Component } from 'react'
+import Display from './Display';
+import React, { Component } from 'react';
 
 
  class Contador extends Component {
@@ -33,7 +34,7 @@ import React, { Component } from 'react'
     return (
       <div className="Contador">
         <h2>Contador</h2>
-        <p>{ this.state.numero }</p>
+        <Display numero={this.state.numero}></Display>
         <div>
           <label htmlFor=""></label>
           <input id="passoInput" type="number"
