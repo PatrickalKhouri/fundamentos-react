@@ -6,7 +6,7 @@ export default props => {
         <div>
           <label htmlFor=""></label>
           <input id="passoInput" type="number"
-            value={ props.passo}
+            value ={ props.passo}
             onChange={e => props.setPasso(+e.target.value)} />
         </div>
     </div>

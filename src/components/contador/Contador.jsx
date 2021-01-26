@@ -13,7 +13,6 @@ import PassoForm from './PassoForm'
   }
 
 
-
   inc = () => {
     this.setState({
       numero: this.state.numero + this.state.passo,
