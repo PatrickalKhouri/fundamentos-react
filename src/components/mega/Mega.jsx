@@ -20,6 +20,8 @@ export default props => {
   }
     
   return numberArray.sort((n1, n2) => n1 - n2);
+
+  console.log("teste")
     
   };
 
